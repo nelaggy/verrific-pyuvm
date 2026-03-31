@@ -44,7 +44,10 @@ autosectionlabel_prefix_document = True
 templates_path = ["_templates"]
 
 # The suffix of source filenames.
-source_suffix = ".rst"
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
+}
 # The encoding of source files.
 # source_encoding = 'utf-8-sig'
 
@@ -77,6 +80,10 @@ release = "v4.0.1"
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = ["_build"]
+
+# autodoc2 generates module leaf pages that are linked by symbol references
+# but not always included directly in toctrees.
+suppress_warnings = ["toc.not_included"]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 # default_role = None
