@@ -19,6 +19,14 @@ export PYTHONPATH=/path/to/pyuvm
 python docs/generate_full_api_reference.py
 ```
 
+This command regenerates:
+
+- `docs/docsources/reference-api-core.md`
+- `docs/docsources/reference-api-tlm.md`
+- `docs/docsources/reference-api-ral.md`
+- `docs/docsources/reference-api-utils.md`
+- `docs/docsources/reference-full.md`
+
 ## Quality gates
 
 - No new Sphinx warnings.

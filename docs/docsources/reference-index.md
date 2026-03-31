@@ -6,6 +6,10 @@ This section provides workflow-oriented entry points into pyuvm APIs.
 
 - [Core API Reference](reference-core.md)
 - [Advanced API Reference](reference-advanced.md)
+- [API Reference: Core (Generated)](reference-api-core.md)
+- [API Reference: TLM (Generated)](reference-api-tlm.md)
+- [API Reference: Register Layer (Generated)](reference-api-ral.md)
+- [API Reference: Errors and Utilities (Generated)](reference-api-utils.md)
 - [Full API Reference (All Exported Symbols)](reference-full.md)
 - Generated API docs are available in the left navigation under API Reference.
 
@@ -20,5 +24,9 @@ This section provides workflow-oriented entry points into pyuvm APIs.
 
 reference-core
 reference-advanced
+reference-api-core
+reference-api-tlm
+reference-api-ral
+reference-api-utils
 reference-full
 ```
